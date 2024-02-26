@@ -43,5 +43,7 @@ jobs:
       with:
         name: TestResults
         path: testResult.trx
+        reporter: dotnet-trx
+
 
 
