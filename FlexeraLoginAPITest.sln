@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34601.278
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexeraLoginAPITest", "FlexeraLoginAPITest\FlexeraLoginAPITest.csproj", "{3F3AC830-1A42-4F22-A0E4-B4E6E8B66B40}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FlexeraLoginAPITest", "FlexeraLoginAPITest\FlexeraLoginAPITest.csproj", "{3F3AC830-1A42-4F22-A0E4-B4E6E8B66B40}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{8ECDE82F-A05B-4339-A0AA-37C3D9C1D6C2}"
+	ProjectSection(SolutionItems) = preProject
+		.github\workflows\dotnet.yml = .github\workflows\dotnet.yml
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
